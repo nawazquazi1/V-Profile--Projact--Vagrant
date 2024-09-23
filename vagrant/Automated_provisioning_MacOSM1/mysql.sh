@@ -3,7 +3,7 @@ sudo mv /etc/yum.repos.d/fedora-updates.repo /tmp/
 sudo mv /etc/yum.repos.d/fedora-updates-modular.repo /tmp/
 sudo yum clean all
 #sudo yum update -y
-DATABASE_PASS='admin1234'
+DATABASE_PASS='admin12'
 #sudo yum install epel-release -y
 sudo yum install git zip unzip -y
 sudo yum install mariadb-server -y
